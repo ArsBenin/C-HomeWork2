@@ -7,7 +7,6 @@
 
 Console.WriteLine ("Введите число");
 string numberStr = Console.ReadLine();
-int i = numberStr.Length;
 int number = int.Parse(numberStr);
 
 if (number > 99)
